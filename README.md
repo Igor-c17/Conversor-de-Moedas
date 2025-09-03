@@ -59,7 +59,7 @@ A chave da API pode ser obtida gratuitamente em:
 Após gerar sua chave, crie um arquivo `.env` na raiz do projeto:
 ```env
 VITE_API_KEY=sua_chave_aqui
-
+```
 ---
 
 🚀 Projeto disponível para visualização em:
