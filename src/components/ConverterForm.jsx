@@ -7,7 +7,7 @@ const ConverterForm = () => {
   const [fromCurrency, setFromCurrency] = useState("BRL");
   const [toCurrency, setToCurrency] = useState("USD");
   const [result, setResult] = useState("");
-  const [isLoading, setIsLoanding] = useState("false");
+  const [isLoading, setIsLoanding] = useState(false);
 
   const handleSwapCurrencies = () => {
     setFromCurrency(toCurrency);
@@ -41,7 +41,9 @@ const ConverterForm = () => {
     getExchangeRate();
   };
 
-  useEffect(() => getExchangeRate, []);
+useEffect(() => {
+  getExchangeRate();
+}, []);
 
   return (
     <form className="conveter_form" onSubmit={handleFormSubmit}>
