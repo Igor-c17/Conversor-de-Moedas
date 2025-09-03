@@ -62,4 +62,4 @@ VITE_API_KEY=sua_chave_aqui
 ```
 ---
 
-🚀 Projeto disponível para visualização em:
+🚀 Projeto disponível para visualização em: https://conversor-de-moedas-bxkr.vercel.app/
